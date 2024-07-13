@@ -11748,7 +11748,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "bbc8284c-ea4d-4e47-85d7-46386345b555")
 		(property "Reference" "D1"
 			(at 154.94 97.7899 0)
@@ -11760,7 +11759,7 @@
 			)
 		)
 		(property "Value" "SELC143T5V2UA"
-			(at 154.94 100.3299 0)
+			(at 133.604 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
