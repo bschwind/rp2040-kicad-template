@@ -1,0 +1,6 @@
+[submodule "extra-parts/kicad-parts"]
+	path = extra-parts/kicad-parts
+	url = git@github.com:bschwind/kicad-parts.git
+[submodule "extra-parts/kicad-keyboard-parts"]
+	path = extra-parts/kicad-keyboard-parts
+	url = git@github.com:bschwind/kicad-keyboard-parts.git

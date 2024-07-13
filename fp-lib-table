@@ -1,0 +1,9 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "footprints")(type "KiCad")(uri "${KIPRJMOD}/extra-parts/kicad-parts/footprints.pretty")(options "")(descr ""))
+  (lib (name "switches_kailh_hotswap")(type "KiCad")(uri "${KIPRJMOD}/extra-parts/kicad-keyboard-parts/switches_kailh_hotswap.pretty")(options "")(descr ""))
+  (lib (name "switches_cherry_mx")(type "KiCad")(uri "${KIPRJMOD}/extra-parts/kicad-keyboard-parts/switches_cherry_mx.pretty")(options "")(descr ""))
+  (lib (name "stabilizers")(type "KiCad")(uri "${KIPRJMOD}/extra-parts/kicad-keyboard-parts/stabilizers.pretty")(options "")(descr ""))
+  (lib (name "slots")(type "KiCad")(uri "${KIPRJMOD}/extra-parts/kicad-keyboard-parts/slots.pretty")(options "")(descr ""))
+  (lib (name "copper-pour-patterns")(type "KiCad")(uri "${KIPRJMOD}/extra-parts/kicad-keyboard-parts/copper-pour-patterns.pretty")(options "")(descr ""))
+)
