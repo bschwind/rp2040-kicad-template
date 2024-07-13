@@ -7,3 +7,4 @@ fp-info-cache
 *-cache.lib
 .DS_Store
 rp2040-kicad-template-backups/
+*.lck
