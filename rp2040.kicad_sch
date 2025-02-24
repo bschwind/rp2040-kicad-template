@@ -4434,12 +4434,6 @@
 		(uuid "cdf7558f-2f4b-4b89-b179-de351434bc2d")
 	)
 	(junction
-		(at 274.32 46.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d82e7104-84f9-41bb-880a-313f65ef8e45")
-	)
-	(junction
 		(at 218.44 20.32)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4474,12 +4468,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e9b663c3-5619-4157-8ef6-92dd60153e08")
-	)
-	(junction
-		(at 270.51 41.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fa841ba9-4e57-4578-ae27-c6e64350bea8")
 	)
 	(no_connect
 		(at 74.93 62.23)
@@ -4682,16 +4670,6 @@
 			(type default)
 		)
 		(uuid "1c4146a0-96d6-4504-9a52-2c4b5214f01d")
-	)
-	(wire
-		(pts
-			(xy 270.51 46.99) (xy 274.32 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1e06e931-1160-4831-92ca-1f913dbcc99d")
 	)
 	(polyline
 		(pts
@@ -5605,7 +5583,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 41.91) (xy 270.51 41.91)
+			(xy 266.7 41.91) (xy 274.32 41.91)
 		)
 		(stroke
 			(width 0)
@@ -5862,16 +5840,6 @@
 			(type default)
 		)
 		(uuid "f5d5f572-472a-4f46-a3f7-8ab8dccd2e90")
-	)
-	(wire
-		(pts
-			(xy 270.51 41.91) (xy 274.32 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f67afb4a-59ab-432d-b298-0d2a895a9e1e")
 	)
 	(polyline
 		(pts
@@ -7435,7 +7403,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 274.32 44.45 0)
 			(effects
 				(font
@@ -7462,7 +7430,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C23630"
+		(property "LCSC" "C12530"
 			(at 274.32 44.45 0)
 			(effects
 				(font
@@ -8040,7 +8008,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 143.51 49.53 0)
 			(effects
 				(font
@@ -8067,7 +8035,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25804"
+		(property "LCSC" "C25744"
 			(at 143.51 49.53 0)
 			(effects
 				(font
@@ -8550,84 +8518,6 @@
 			(project "rp2040-kicad-template"
 				(path "/bab9d4ba-4671-4f57-a245-5e0527b464d7/59d9fd80-c3ab-4343-9591-286205d42abc"
 					(reference "#PWR057")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 270.51 44.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "58ab129e-7f62-46ca-a729-d8c1cf1017ef")
-		(property "Reference" "C38"
-			(at 261.62 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 261.62 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 270.51 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 270.51 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 270.51 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C307331"
-			(at 270.51 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "64d374dd-deab-4149-beb2-4d5198346562")
-		)
-		(pin "2"
-			(uuid "5c01bfd2-dbe8-4c8a-b21a-9c42f588c2ec")
-		)
-		(instances
-			(project "rp2040-kicad-template"
-				(path "/bab9d4ba-4671-4f57-a245-5e0527b464d7/59d9fd80-c3ab-4343-9591-286205d42abc"
-					(reference "C38")
 					(unit 1)
 				)
 			)
@@ -9838,7 +9728,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 33.02 161.29 0)
 			(effects
 				(font
@@ -9865,7 +9755,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C21190"
+		(property "LCSC" "C11702"
 			(at 33.02 161.29 90)
 			(effects
 				(font
@@ -10048,7 +9938,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 53.34 90.17 0)
 			(effects
 				(font
@@ -10075,7 +9965,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C23630"
+		(property "LCSC" "C12530"
 			(at 53.34 90.17 0)
 			(effects
 				(font
@@ -10894,7 +10784,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 148.59 26.67 0)
 			(effects
 				(font
@@ -10921,7 +10811,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1658"
+		(property "LCSC" "C1570"
 			(at 148.59 26.67 0)
 			(effects
 				(font
@@ -11312,7 +11202,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 45.72 90.17 0)
 			(effects
 				(font
@@ -11339,7 +11229,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C23630"
+		(property "LCSC" "C12530"
 			(at 45.72 90.17 0)
 			(effects
 				(font
@@ -11889,7 +11779,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 106.68 52.07 0)
 			(effects
 				(font
@@ -11916,7 +11806,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C21190"
+		(property "LCSC" "C11702"
 			(at 106.68 52.07 90)
 			(effects
 				(font
@@ -12272,7 +12162,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 205.74 52.07 0)
 			(effects
 				(font
@@ -12299,7 +12189,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25804"
+		(property "LCSC" "C25744"
 			(at 205.74 52.07 90)
 			(effects
 				(font
@@ -12350,7 +12240,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 135.89 26.67 0)
 			(effects
 				(font
@@ -12377,7 +12267,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1658"
+		(property "LCSC" "C1570"
 			(at 135.89 26.67 0)
 			(effects
 				(font
